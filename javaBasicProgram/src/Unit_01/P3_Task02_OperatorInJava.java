@@ -1,5 +1,6 @@
 package Unit_01;
 
+import java.util.*;
 public class P3_Task02_OperatorInJava {
     static void unary_operator(int a, int b)
     {
@@ -57,7 +58,7 @@ public class P3_Task02_OperatorInJava {
     System.out.println((5 > 3) && (8 < 5));  // false
     // || operator
     System.out.println((5 < 3) || (8 > 5));  // true
-    System.out.println((5 > 3) || (8 < 5));  // true
+  //  System.out.println((5 > 3) || (8<3));  // true
     System.out.println((5 < 3) || (8 < 5));  // false
     // ! operator
     System.out.println(!(5 == 3));  // true
@@ -65,8 +66,9 @@ public class P3_Task02_OperatorInJava {
     }
 	public static void main(String[] args) {
          int x,y;
-         Scanner s = new Scanner(System.in);
-         x = s.nextInt();  y = s.nextInt();
+         @SuppressWarnings("resource")
+		Scanner S = new Scanner(System.in);
+         x = S.nextInt();  y = S.nextInt();
          unary_operator(x,y);
          bitwise_operator(x,y);
          assignment_operators();
