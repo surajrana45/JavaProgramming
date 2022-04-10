@@ -8,7 +8,7 @@
 		obj.removeElementInArray(array);//(Optional)
  */
 
-public class P9_Task01_Array {
+public class P9_Array {
 
 	public static void main(String[] args) {
 
