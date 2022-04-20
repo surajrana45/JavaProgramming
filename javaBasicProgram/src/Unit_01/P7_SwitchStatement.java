@@ -22,7 +22,7 @@ package Unit_01;
 	}
 
 	class SwitchStatements {
-		void switchStatements() {
+		void switchStatements() {	
 		
 		  Scanner s = new Scanner(System.in);
 		  int ch = s.nextInt();

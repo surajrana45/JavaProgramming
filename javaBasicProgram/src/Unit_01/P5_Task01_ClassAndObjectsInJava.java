@@ -12,7 +12,7 @@ public class P5_Task01_ClassAndObjectsInJava {
 class ABC2{
 	int a=10;
 	static int b=10;
-	public void display()
+	static void display()
 	{
 		int b=10;
 		b++;
